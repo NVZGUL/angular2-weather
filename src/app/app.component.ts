@@ -40,6 +40,10 @@ import { AppState } from './app.service';
         routerLinkActive="active" [routerLinkActiveOptions]= "{exact: true}">
         About
       </a>
+      <a [routerLink]=" ['./weather'] "
+        routerLinkActive="active" [routerLinkActiveOptions]= "{exact: true}">
+        Weather
+      </a>
     </nav>
 
     <main>

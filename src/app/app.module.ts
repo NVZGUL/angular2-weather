@@ -28,6 +28,8 @@ import { APP_RESOLVER_PROVIDERS } from './app.resolver';
 import { AppState, InternalStateType } from './app.service';
 import { HomeComponent } from './home';
 import { AboutComponent } from './about';
+import { WeatherCityComponent } from './weather';
+import { WeatherComponent } from './weather/weather.component'
 import { NoContentComponent } from './no-content';
 import { XLargeDirective } from './home/x-large';
 
@@ -55,6 +57,8 @@ type StoreType = {
     AppComponent,
     AboutComponent,
     HomeComponent,
+    WeatherComponent,
+    WeatherCityComponent,
     NoContentComponent,
     XLargeDirective
   ],
